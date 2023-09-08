@@ -10,10 +10,10 @@ int main(void)
 	int d;
 	int e = '0';
 
-	while (e < 10)
+	while (e <= '9')
 	{
 		d = '0';
-		while (d < 10)
+		while (d <= '9')
 		{
 			c = '0';
 			while (c <= '9')

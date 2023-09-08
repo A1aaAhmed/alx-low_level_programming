@@ -1,14 +1,20 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
+ */
 int main(void)
 {
-	char [27] alph="abcdefghijklmnopqrstuvwxyz";
-	for (int i=0;i<27;i++){
-		putchar(alph[i]);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
 	}
-	putchar("\n");
+
+	putchar('\n');
 	return (0);
 }

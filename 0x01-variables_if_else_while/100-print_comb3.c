@@ -5,8 +5,8 @@
  * Return: 0
  */
 int main(void)
-{	char i = '0';
-	char j = '1';
+{	int i = '0';
+	int j = '1';
 	for (; i <= '8'; i++){
 		for (; j <='9'; j++){
 			if (i !=  j){

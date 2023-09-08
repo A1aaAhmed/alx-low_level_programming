@@ -7,12 +7,18 @@
 int main(void)
 {	int i = '0';
 	int j = '1';
-	for (; i <= '8'; i++){
-		for (; j <='9'; j++){
-			if (i !=  j){
+
+	for (; i <= '8'; i++)
+	{
+		for (; j <= '9'; j++)
+		{
+			if (i !=  j)
+			{
 				putchar(i);
-				putchar(j);}
-			if (i != '8' && j != '9'){
+				putchar(j);
+			}
+			if (i != '8' && j != '9')
+			{
 				putchar(' ');
 				putchar(',');
 			}

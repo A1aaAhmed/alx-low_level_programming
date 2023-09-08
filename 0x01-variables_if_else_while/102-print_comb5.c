@@ -2,35 +2,37 @@
 #include <stdlib.h>
 /**
  * main - main block
+ * Description: Write a program that prints all possible
+ * different combinations of two digits
  * Return: 0
  */
 int main(void)
 {
 	int c = 0;
-	int f_d;
-	int l_d;
+	int fd;
+	int ld;
 
 	int c2;
-	int f_d2;
-	int l_d2;
+	int fd2;
+	int ld2;
 
-	while (c <= 98)
+	while (c < 99)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
+		fd = (c / 10 + '0');
+		ld = (c % 10 + '0');
 		c2 = 0;
-		while (c2 <= 99)
+		while (c2 < 100)
 		{
-			f_d2 = (c2 / 10 + '0');
-			l_d2 = (c2 % 10 + '0');
+			fd2 = (c2 / 10 + '0');
+			ld2 = (c2 % 10 + '0');
 
 			if (c < c2)
 			{
-				putchar(f_d);
-				putchar(l_d);
+				putchar(fd);
+				putchar(ld);
 				putchar(' ');
-				putchar(f_d2);
-				putchar(l_d2);
+				putchar(fd2);
+				putchar(ld2);
 
 				if (c != 98)
 				{
@@ -38,11 +40,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			c2++;
+			++c2;
 		}
-		c++;
+		++c;
 	}
 	putchar('\n');
 	return (0);
 }
-

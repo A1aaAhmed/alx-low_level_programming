@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block 
+ * main - main block
  * Return: 0
  */
-
 int main(void)
 {
 	char c = 'a';
 
-	for (; c <= 'z'; c++)
+	for (; c <= 'z';)
 	{
-		putchar(c);	
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);

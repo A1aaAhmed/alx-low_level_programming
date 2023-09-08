@@ -8,15 +8,12 @@
  */
 int main(void)
 {
-	char ch;
-
-	for (ch = '0'; ch <= '9'; ch++)
+	int  ch;
+	
+	char a [16] = "0123456789abcdef";
+	for (ch =0; ch <= 16; ch++)
 	{
-		putchar(ch);
-	}
-	for (ch = 'a'; ch <= 'f'; ch++)
-	{
-		putchar(ch);
+		putchar(a[ch]);
 	}
 	putchar('\n');
 	return (0);

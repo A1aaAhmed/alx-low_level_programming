@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - main block
+ * print_alphabet block
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c ;
 

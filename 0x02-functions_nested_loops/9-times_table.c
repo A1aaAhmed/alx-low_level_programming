@@ -23,8 +23,8 @@ for (i = 0; i < 10; i++)
 		}
 		else
 		{
-			_putchar('0' + rep / 10);
-			_putchar('0' + rep % 10);
+			_putchar('0' + res / 10);
+			_putchar('0' + res 10);
 		}
 
 		if (j < 9)

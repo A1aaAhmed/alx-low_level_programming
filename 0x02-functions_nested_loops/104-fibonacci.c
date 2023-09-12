@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-        unsigned long int i, bef1, bef2, aft1, aft2, bef = 1, aft = 2;
-        unsigned long int l = 1000000000;
+	unsigned long int i, bef1, bef2, aft1, aft2, bef = 1, aft = 2;
+	unsigned long int l = 1000000000;
 
 	printf("%lu", bef);
 

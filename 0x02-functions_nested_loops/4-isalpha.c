@@ -2,8 +2,8 @@
 
 /**
  * _isalpha - check for lower case letter
- * @c : input 
- * Return:0 , 1
+ * @c : input
+ * Return:0, 1
  */
 
 int _isalpha(int c)

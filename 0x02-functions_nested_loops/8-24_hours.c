@@ -28,9 +28,9 @@ for (d1 = 0; d1 < 3; d1++)
 				_putchar('0' + d3);
 				_putchar('0' + d4);
 				_putchar('\n');
-			}	
+			}
 		}
-	}	
+	}
 }
 
 }

@@ -2,7 +2,7 @@
 
 /**
  * _islower - check for lower case letter
- * c : input
+ *@c : input
  * Return:0 , 1
  */
 

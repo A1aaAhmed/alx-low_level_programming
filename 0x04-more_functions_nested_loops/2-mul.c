@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * mul - returns the product of two numbers
- * @b: input
- * Return:0
+ * @b : input
+ * @a : input
+ * Return : 0
  */
 
 

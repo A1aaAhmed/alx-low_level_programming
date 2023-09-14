@@ -9,6 +9,8 @@ void print_most_numbers(void)
 {
 	char c;
 	char x;
+	int i;
+
     for (i = 0; i < 10; i++)
     {
     	for (c = '0'; c <= '9' + 5; c++)

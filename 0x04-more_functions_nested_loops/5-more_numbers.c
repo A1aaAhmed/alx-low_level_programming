@@ -15,16 +15,16 @@ void print_most_numbers(void)
 
 			if (c > '9')
 			{
-				putchar('1');
+				_putchar('1');
 				x = c - 10;
 			}
 			else
 			{
 				x = c;
 			}
-			putchar(x);
+			_putchar(x);
 
 	}
-	putchar('\n');
+	_putchar('\n');
 
 }

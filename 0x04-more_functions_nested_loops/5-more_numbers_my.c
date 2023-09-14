@@ -5,26 +5,28 @@
  * Return:void
  */
 
-void more_numbers(void)
+void print_most_numbers(void)
 {
-	char n, c;
+	char c, x;
 	int i;
 
 
 	for (i = 0; i < 10; i++)
 	{
-		for (n = 0; n <= 14; n++)
+		for (c = '0'; c <= '9' + 5; c++)
 		{
-			c = n;
-			if (n > 9)
+			if (c > '9')
 			{
 				_putchar('1');
-				c = n % 10;
+				x = c - 10;
 			}
+			else
+			{
+				x = c;
+			}
+			_putchar(x);
 
-			_putchar('0' + c);
 		}
-
 		_putchar('\n');
 	}
 

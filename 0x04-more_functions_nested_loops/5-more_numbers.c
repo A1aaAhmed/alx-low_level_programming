@@ -8,6 +8,7 @@
 void print_most_numbers(void)
 {
 	char c;
+	char x;
 
 	for (c = '0'; c <= '9' + 5; c++)
 	{
@@ -15,12 +16,13 @@ void print_most_numbers(void)
 			if (c > '9')
 			{
 				putchar('1');
-				putchar(c - 10);
+				x = c - 10;
 			}
 			else
 			{
-				putchar(c);
+				x = c;
 			}
+			putchar(x);
 
 	}
 	putchar('\n');

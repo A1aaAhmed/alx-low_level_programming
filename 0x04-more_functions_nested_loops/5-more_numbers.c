@@ -19,9 +19,7 @@ void print_most_numbers(void)
 				x = c - 10;
 			}
 			else
-			{
 				x = c;
-			}
 			_putchar(x);
 
 	}

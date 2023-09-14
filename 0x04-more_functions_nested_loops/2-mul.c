@@ -3,7 +3,7 @@
  * mul - returns the product of two numbers
  * @b : input
  * @a : input
- * Return : 0
+ * Return:0
  */
 
 

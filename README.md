@@ -1,1 +1,1 @@
-0x04-more_functions_nested_loops tasks
+0x07-pointers_arrays_strings tasks 
